@@ -20,24 +20,27 @@ h1{
 	font-size: 100px;
 }
 
+#white-change{
+	color: white;
+}
+
 
 button, #add-button {
 	margin: 1% 1% 1% 0;
 	padding: 7px 10px 5px 10px;
-	border-color: maroon;
-	background-color: maroon;
-	color: #fac564;
-	/*color: white;*/
+	border: none;
+	background-color: white;
+	color: maroon;
 	margin-left: 5px;
 	letter-spacing: 1.5px;
 
 }
 
-#white-background{
+#maroon-background{
 	padding: 30px;
-	background-color: white;
-	border-top-color: maroon;
-	border-bottom-color: maroon;
+	background-color: maroon;
+	border-top-color: white;
+	border-bottom-color: white;
 	border-top-style: solid;
 	border-bottom-style: solid;
 	border-top-width: 5px;
