@@ -1,7 +1,9 @@
 $(document).ready(function() {
 
 
-var foods = ["spaghetti", "ice cream", "burger", "pizza", "milkshake", "fries"]
+var foods = ["spaghetti", "ice cream", "burger", "pizza", "milkshake", "fries", "beer", "lasagna",
+			 "tacos", "panini", "wine", "cookies", "brownies", "bread", "egg rolls", "popcorn", "banana",
+			 "eggs", "cereal", "steak", "sushi", "ketchup", "potato", "cake"]
 
 
 function gifMagic (){
@@ -22,7 +24,7 @@ function gifMagic (){
         		var gifDiv = $("<div class='gifSpot'>");
         		var gifImage = $("<img class='gif-image'>");
         		var rating = results[i].rating;
-        		var p = $("<p>").text("Rating: " + rating.toUpperCase());
+        		var p = $("<p>").text("rating: " + rating.toUpperCase());
 
         		gifImage.attr("src", results[i].images.fixed_height_still.url);
         		gifImage.attr("data-still", results[i].images.fixed_height_still.url);

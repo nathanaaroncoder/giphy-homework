@@ -1,4 +1,75 @@
+body{
+	background-image: url(../images/food.png);
+	font-family: 'Josefin Sans', sans-serif;
+}
+
 .gifSpot{
 	float: left;
 	margin: 5%;
+}
+
+.top-head{
+	text-align: center;
+	letter-spacing: 5px;
+	background-image: url(../images/food.png);
+	padding: 60px 0px 20px 0px;
+	color: maroon;
+}
+
+h1{
+	font-size: 100px;
+}
+
+
+button, #add-button {
+	margin: 1% 1% 1% 0;
+	padding: 7px 10px 5px 10px;
+	border-color: maroon;
+	background-color: maroon;
+	color: #fac564;
+	/*color: white;*/
+	margin-left: 5px;
+	letter-spacing: 1.5px;
+
+}
+
+#white-background{
+	padding: 30px;
+	background-color: white;
+	border-top-color: maroon;
+	border-bottom-color: maroon;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-width: 5px;
+	border-bottom-width: 5px;
+
+}
+
+input{
+	margin-left: 1px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border-color: maroon;
+}
+
+#add-button{
+	margin-top: 15px;
+}
+
+form{
+	margin-left: 15px;
+}
+
+p {
+	margin-top: 5px;
+	text-align: center;
+	color: maroon;
+	font-size: 20px;
+}
+
+.gif-image{
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	cursor: pointer;
 }
