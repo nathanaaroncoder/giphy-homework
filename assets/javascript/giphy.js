@@ -8,7 +8,7 @@ var foods = ["spaghetti", "ice cream", "burger", "pizza", "milkshake", "fries", 
 
 function gifMagic (){
 	var food = $(this).attr("data-name");
-	var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + food + "&api_key=0xmjh4jszizqHe29c7R02PRJEFy9qJSz&limit=10";
+	var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + food + "&api_key=0xmjh4jszizqHe29c7R02PRJEFy9qJSz&limit=10";
 
 	$.ajax({
           url: queryURL,
@@ -42,13 +42,9 @@ function gifMagic (){
 
         	$(".gif-image").on("click", function() {
 
-			console.log("Does this click?");
-
          	var state = $(this).attr("data-state");
 
-         	console.log("state: " + state);
-         	console.log("this: " + this);
-
+    
         	if(state === "still"){
           		$(this).attr("src", $(this).attr("data-animate"));
           		$(this).attr("data-state", "animate");

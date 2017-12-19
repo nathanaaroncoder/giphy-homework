@@ -76,3 +76,8 @@ p {
 	border-width: 2px;
 	cursor: pointer;
 }
+
+#gifs{
+	margin-left: 50px;
+	margin-right: 50px;
+}
