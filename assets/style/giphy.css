@@ -13,7 +13,7 @@ body{
 	letter-spacing: 5px;
 	background-image: url(../images/food.png);
 	padding: 60px 0px 20px 0px;
-	color: maroon;
+	color: navy;
 }
 
 h1{
@@ -30,7 +30,7 @@ button, #add-button {
 	padding: 7px 10px 5px 10px;
 	border: none;
 	background-color: white;
-	color: maroon;
+	color: navy;
 	margin-left: 5px;
 	letter-spacing: 1.5px;
 
@@ -38,7 +38,7 @@ button, #add-button {
 
 #maroon-background{
 	padding: 30px;
-	background-color: maroon;
+	background-color: navy;
 	border-top-color: white;
 	border-bottom-color: white;
 	border-top-style: solid;
